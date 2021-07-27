@@ -1,0 +1,122 @@
+/*FONTE DO GOOGLE PARA A PÁGINA*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* INICIO REGRAS PARA TODOS OS DISPOSITIVOS */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1ba39c;
+}
+
+a:hover {
+    color: #14837d;
+}
+
+a:active {
+    color: #14837d;
+}
+
+li,
+dl {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #6c7a89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 500px;
+    background: #fff;
+    font-family: Poppins;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top: 10px solid #1ba39c;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header_secundario {
+    text-transform: uppercase;
+}
+
+.minhaFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.imagemEu {
+    width: 70%;
+    border: 2px solid rgba(29, 29, 29, 0.733);
+    border-radius: 50%;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+
+/* FIM REGRAS PARA TODOS OS DISPOSITIVOS*/
+
+
+/* INICIO REGRAS PARA DISPOSITIVOS DE IMPRESSÃO */
+
+@media print {}
+
+
+/* FIM REGRAS PARA DISPOSITIVOS DE IMPRESSÃO */
+
+
+/* INICIO REGRAS PARA DISPOSITIVOS MÓVEIS. POR EXEMPLO: SMARTHPHONES */
+
+@media only screen and (max-width: 480px) {
+    .form-box {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* FIM REGRAS PARA DISPOSITIVOS MÓVEIS. POR EXEMPLO: SMARTHPHONES */
+
+
+/* INICIO REGRAS PARA DISPOSITIVOS MÓVEIS MÉDIOS. POR EXEMPLO: TABLETS */
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .form-box {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/* FIM REGRAS PARA DISPOSITIVOS MÓVEIS MÉDIOS. POR EXEMPLO: TABLETS */
+
+
+/* INICIO REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 1025 PIXELS. POR EXEMPLO: COMPUTADORES DESKTOP E NOTEBOOKS */
+
+@media screen and (min-width: 1025px) {}
+
+
+/* FIM REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 1025 PIXELS. POR EXEMPLO: COMPUTADORES DESKTOP E NOTEBOOKS */
